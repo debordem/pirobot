@@ -1,7 +1,6 @@
 import RPi.GPIO as GPIO
 import time
 
-
 GPIO.setmode(GPIO.BCM)  # set board mode to Broadcom
 
 GPIO.setup(17, GPIO.OUT)  # set up pin 17
