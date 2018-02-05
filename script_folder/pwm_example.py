@@ -1,14 +1,15 @@
 #PWM Example from
 # https://raspberrypikid.wordpress.com/2014/02/03/pwm-dimming-of-an-led-with-raspberry-pi/
 
+# And a good tutorial here
+#https://circuitdigest.com/microcontroller-projects/raspberry-pi-pwm-tutorial
+
 import RPi.GPIO as GPIO
 import time
 
 RED = 22
 
-
 GPIO.setmode(GPIO.BCM)  # set board mode to Broadcom
-
 
 GPIO.setup(RED, GPIO.OUT) #set pin 21 to output
 
