@@ -1,4 +1,8 @@
 # Let's import the modules we will need!
+# Arduino tutorial / but has datasheet
+# https://www.bananarobotics.com/shop/How-to-use-the-HG7881-(L9110)-Dual-Channel-Motor-Driver-Module
+
+
 import RPi.GPIO as GPIO
 import time
 
